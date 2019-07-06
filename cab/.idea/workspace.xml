@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8365ddb0-703c-4f6b-945e-080814f50b7e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_cab/micromsg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ih</find>
+      <find>addr</find>
+      <find>address</find>
+      <find>car-room-count</find>
+      <find>btn-success</find>
+      <find>form-car-image</find>
+      <find>Errors</find>
+      <find>ERRORS</find>
+      <find>idcard</find>
+      <find>myhouse</find>
+      <find>房子</find>
+      <find>wirelessnetwork</find>
+      <find>wire</find>
+      <find>w</find>
+      <find>margin</find>
+      <find>newhouse</find>
+      <find>caricon_sprite.png</find>
+      <find>房东</find>
+      <find>print</find>
+      <find>ihome</find>
+      <find>房 源</find>
+      <find>display-mask</find>
+      <find>爱家</find>
+      <find>datetime</find>
+      <find>house</find>
+      <find>房间</find>
+      <find>房屋</find>
+      <find>alert</find>
+      <find>home</find>
+      <find>initSize</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>urllib</replace>
+      <replace>xmltojson.xmltojson</replace>
+      <replace>#</replace>
+      <replace>xmltojson</replace>
+      <replace>redis_connect1</replace>
+      <replace />
+      <replace>&quot;</replace>
+      <replace>CAR</replace>
+      <replace>cab</replace>
+      <replace>disc</replace>
+      <replace>load</replace>
+      <replace>ERRORS</replace>
+      <replace>errors</replace>
+      <replace>id_card</replace>
+      <replace>mycar</replace>
+      <replace>newcar</replace>
+      <replace>车主</replace>
+      <replace>my_cab</replace>
+      <replace>车源</replace>
+      <replace>车辆</replace>
+      <replace>用车</replace>
+      <replace>datetime.datetime</replace>
+      <replace>car</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/my_cab/static/css/my_cab/mycar.css" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/newcar.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/mycar.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/plugins/swiper/css/swiper.min.css" />
+        <option value="$PROJECT_DIR$/my_cab/static/css/my_cab/detail.css" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/booking.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/css/my_cab/booking.css" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/orders.js" />
+        <option value="$PROJECT_DIR$/my_cab/api_1_0/passport.py" />
+        <option value="$PROJECT_DIR$/my_cab/api_1_0/image_code.py" />
+        <option value="$PROJECT_DIR$/my_cab/tasks/celery_tasks.py" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/updatecar1.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/css/my_cab/index.css" />
+        <option value="$PROJECT_DIR$/my_cab/static/plugins/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/my_cab/models.py" />
+        <option value="$PROJECT_DIR$/my_cab/static/css/my_cab/search.css" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/search.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/register.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/profile.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/payresult.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/lorders.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/login.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/booking.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/auth.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/profile.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/detail.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/auth.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/lorders.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/payresult.js" />
+        <option value="$PROJECT_DIR$/my_cab/api_1_0/order.py" />
+        <option value="$PROJECT_DIR$/my_cab/static/plugins/mui/css/mui.min.css" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/search.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/test.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/index.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/my.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/my.js" />
+        <option value="$PROJECT_DIR$/my_cab/api_1_0/userinfo.py" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/mycar.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/orders.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/detail.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/updatecar.js" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/newcar.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/updatecar.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/index.html" />
+        <option value="$PROJECT_DIR$/my_cab/__init__.py" />
+        <option value="$PROJECT_DIR$/my_cab/macromsg.py" />
+        <option value="$PROJECT_DIR$/my_cab/static/html/hello.html" />
+        <option value="$PROJECT_DIR$/my_cab/static/js/my_cab/hello.js" />
+        <option value="$PROJECT_DIR$/my_cab/api_1_0/car.py" />
+        <option value="$PROJECT_DIR$/my_cab/api_1_0/send_sms.py" />
+        <option value="$PROJECT_DIR$/my_cab/micromsg.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1025" />
+    <option name="height" value="575" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cab" type="462c0819:PsiDirectoryNode" />
+              <item name="my_cab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cab" type="462c0819:PsiDirectoryNode" />
+              <item name="my_cab" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cab" type="462c0819:PsiDirectoryNode" />
+              <item name="my_cab" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="tenant" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="tenant" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_tenant/static/plugins/mui" />
+      <recent name="$PROJECT_DIR$/my_tenant/static/plugins" />
+      <recent name="$PROJECT_DIR$/my_tenant/libs/mui/dist" />
+      <recent name="$PROJECT_DIR$/my_tenant/static/js" />
+      <recent name="$PROJECT_DIR$/my_tenant/api_1_0/keys" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_cab/static/html" />
+      <recent name="$PROJECT_DIR$/my_cab/static/images" />
+      <recent name="$PROJECT_DIR$/my_cab/static" />
+      <recent name="$PROJECT_DIR$/my_cab/static/js/my_cab" />
+      <recent name="$PROJECT_DIR$/my_cab/static/plugins/mui/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="CCPRestSDK" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tenant" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_tenant/libs/ronglianyun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_tenant/libs/ronglianyun/sms_skd/CCPRestSDK.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SendTemplateSMS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tenant" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_tenant/libs/ronglianyun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_tenant/libs/ronglianyun/SendTemplateSMS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tenant" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_tenant/api_1_0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_tenant/api_1_0/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.SendTemplateSMS" />
+        <item itemvalue="Python.CCPRestSDK" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8365ddb0-703c-4f6b-945e-080814f50b7e" name="Default Changelist" comment="" />
+      <created>1561071940164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561071940164</updated>
+      <workItem from="1561071950915" duration="1289000" />
+      <workItem from="1561074512949" duration="420000" />
+      <workItem from="1561075181969" duration="651000" />
+      <workItem from="1561077484009" duration="8146000" />
+      <workItem from="1561086405493" duration="4262000" />
+      <workItem from="1561105756871" duration="5229000" />
+      <workItem from="1561123760798" duration="2641000" />
+      <workItem from="1561127311317" duration="4809000" />
+      <workItem from="1561133243991" duration="2063000" />
+      <workItem from="1561170788083" duration="4287000" />
+      <workItem from="1561185167440" duration="15759000" />
+      <workItem from="1561202069433" duration="9143000" />
+      <workItem from="1561251396500" duration="26825000" />
+      <workItem from="1561337902347" duration="7419000" />
+      <workItem from="1561367268632" duration="8710000" />
+      <workItem from="1561379310594" duration="282000" />
+      <workItem from="1561379771802" duration="8957000" />
+      <workItem from="1561392232182" duration="1983000" />
+      <workItem from="1561428035460" duration="8624000" />
+      <workItem from="1561449812519" duration="23528000" />
+      <workItem from="1561474522203" duration="13719000" />
+      <workItem from="1561512080139" duration="7627000" />
+      <workItem from="1561614032520" duration="261000" />
+      <workItem from="1561684454001" duration="7897000" />
+      <workItem from="1561701946823" duration="12259000" />
+      <workItem from="1561714300355" duration="16110000" />
+      <workItem from="1561731810007" duration="2905000" />
+      <workItem from="1561737483773" duration="7611000" />
+      <workItem from="1561781069382" duration="842000" />
+      <workItem from="1561782565405" duration="6804000" />
+      <workItem from="1561792915327" duration="5261000" />
+      <workItem from="1561798551909" duration="2605000" />
+      <workItem from="1561809885696" duration="4714000" />
+      <workItem from="1561857095373" duration="2307000" />
+      <workItem from="1561860985882" duration="2630000" />
+      <workItem from="1561865059887" duration="1982000" />
+      <workItem from="1561869105107" duration="5599000" />
+      <workItem from="1561878999288" duration="11743000" />
+      <workItem from="1561891170570" duration="15131000" />
+      <workItem from="1561907483191" duration="6363000" />
+      <workItem from="1561948969888" duration="9930000" />
+      <workItem from="1561961189611" duration="24465000" />
+      <workItem from="1561999073993" duration="18116000" />
+      <workItem from="1562037233651" duration="8247000" />
+      <workItem from="1562051880544" duration="14076000" />
+      <workItem from="1562066133753" duration="17492000" />
+      <workItem from="1562122835760" duration="9316000" />
+      <workItem from="1562143718431" duration="75000" />
+      <workItem from="1562157396674" duration="2510000" />
+      <workItem from="1562160973654" duration="2123000" />
+      <workItem from="1562230149712" duration="73000" />
+      <workItem from="1562245721684" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="385870000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="984" height="732" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726496" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32392472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32392472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293011" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.205298" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29147983" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32392472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32392472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293011" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26209676" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tenant$test.coverage" NAME="test Coverage Results" MODIFIED="1561204896043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_tenant/api_1_0" />
+    <SUITE FILE_PATH="coverage/tenant$CCPRestSDK.coverage" NAME="CCPRestSDK Coverage Results" MODIFIED="1561193288385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_tenant/libs/ronglianyun" />
+    <SUITE FILE_PATH="coverage/tenant$SendTemplateSMS.coverage" NAME="SendTemplateSMS Coverage Results" MODIFIED="1561202524818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_tenant/libs/ronglianyun" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my_cab/static/css/my_cab/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1067">
+          <caret line="164" column="6" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/rawdetail.html" />
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/payresult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#a#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/auth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/booking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/login.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/newcar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/mycar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/utils/commons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/lorders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/lorders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="978">
+          <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/payresult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/api_1_0/order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/plugins/mui/css/mui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="75417" selection-start-line="4" selection-start-column="75417" selection-end-line="4" selection-end-column="75417" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-563">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/api_1_0/passport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-439">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/newcar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/updatecar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="56" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/updatecar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="38" selection-start-line="129" selection-start-column="38" selection-end-line="129" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/api_1_0/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/mycar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/api_1_0/userinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="161" column="1" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/web_static.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/html/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/static/js/my_cab/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="46" selection-start-line="46" selection-end-line="55" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tenant/venv/lib/python3.6/site-packages/qiniu/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#235#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/areas_facility.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/api_1_0/send_sms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="101" column="70" selection-start-line="101" selection-start-column="70" selection-end-line="101" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/tasks/celery_tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/utils/image_storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/api_1_0/image_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/api_1_0/car.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="232" column="12" selection-start-line="232" selection-start-column="12" selection-end-line="232" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_cab/micromsg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

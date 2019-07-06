@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<meta name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>底部菜单实现点击切换页面</title>
+    <link href="/static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/css/reset.css" rel="stylesheet">
+    <link href="/static/plugins/swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/plugins/mui/css/mui.min.css">
+    <link rel="stylesheet" href="/static/plugins/mui/css/mui.picker.min.css">
+    <link href="/static/plugins/mui/css/icons-extra.css" rel="stylesheet">
+    <link href="/static/css/my_cab/main.css" rel="stylesheet">
+    <link href="/static/css/my_cab/index.css" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 微软雅黑;
+        }
+
+        header {
+            height: 60px;
+            line-height: 60px;
+            width: 100%;
+            color: #fff;
+            font-family: "黑体";
+            font-weight: 200;
+            font-size: 20px;
+            /*背景色渐变*/
+            background: linear-gradient(to bottom right, #F56739, #FB9749);
+        }
+
+        #content {
+            background: linear-gradient(to bottom right, #f5f454, #fbd1b7);
+        }
+
+        .menu {
+            display: block;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+            color: #474747;
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+            background-color: #fff;
+        }
+
+        .subMenu {
+            width: 33%;
+            float: left;
+            cursor: pointer;
+        }
+
+        .menu_name {
+            height: 30px;
+            width: 100%;
+            line-height: 30px;
+        }
+
+        img.menu_img {
+            height: 24px;
+            width: 24px;
+        }
+
+        img {
+            vertical-align: middle;
+            border: 0;
+        }
+
+        .active {
+            color: #FFA129;
+        }
+
+        .text-center {
+            text-align: center
+        }
+
+    </style>
+
+</head>
+<body onload="initSize()" onresize="initSize()">
+
+<!--content-->
+<div id="content">
+    <div class="container">
+        <div class="top-bar">
+            <img class="logo fl" src="/static/images/logo@128x59.png">
+            <div class="register-login fr">
+                <a class="btn top-btn btn-theme" href="/register.html">注册</a>
+                <a class="btn top-btn btn-theme" href="/login.html">登录</a>
+            </div>
+            <div class="user-info fr"><span><i class="fa fa-user fa-lg"></i></span> <a class="user-name" href="/my.html"></a></div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper" id="swiper-wrapper">
+<!--                此处填充轮播图-->
+            </div>
+            <script type="text/html" id="swiper_temp">
+                {{ each cars as car }}
+                <div class="swiper-slide">
+                        <a href="/detail.html?id={{ car.car_id }}"><img src="{{ car.index_image_url }}"></a>
+                        <div class="slide-title">{{ car.title }}</div>
+                    </div>
+                <div class="swiper-pagination"></div>
+                {{ /each }}
+            </script>
+        </div>
+        <div class="search-bar">
+
+            <div class="modal fade" id="area-modal" tabindex="-1" role="dialog" aria-labelledby="area-label">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="area-label">选择城区</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="area-list" id="area-list">
+
+                            </div>
+                            <script id="area_temp" type="text/html">
+                                {{ each areas as area }}
+                                <a href="#" area-id="{{ area.area_id}}">{{ area.area_name }}</a>
+                                {{ /each }}
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="select-date">
+
+                <div>
+                    <form>
+                        <label for="dateSelect">区域</label>
+                         <button class="filter-btn" type="button" data-toggle="modal" data-target="#area-modal"><span class="fl" id="area-btn">选择城区</span><span class="fr"><i class="fa fa-map-marker fa-lg fa-fw"></i></span></button>
+                         <label for="dateSelect">用车时间</label>
+                         <input type="text" id="dateSelect"/>
+                        <label for="dateSelect">出发地</label>
+                         <input type="text" id="startPoint" placeholder="尽量详细点"/>
+                        <label for="dateSelect">目的地</label>
+                         <input type="text" id="endPoint" placeholder="如：深圳清湖"/>
+                    </form>
+                </div>
+            </div>
+            <a class="btn search-btn btn-theme" href="#" onclick="goToSearchPage(this);" area-id="" start-date="" start-point="" end-point="">搜索</a>
+
+        </div>
+
+        <div class="footer">
+            <p><span><i class="fa fa-copyright"></i></span>用车&nbsp;&nbsp;感受生活</p>
+        </div>
+    </div>
+</div>
+<!--bottom-->
+<div id="menu" class="menu">
+    <div id="one" class="subMenu text-center" data-src="index.html">
+        <img class="menu_img" data-imgname="my"/>
+        <div class="menu_name">测试1</div>
+    </div>
+    <div id="two" class="subMenu text-center" data-src="search.html">
+        <img class="menu_img" data-imgname="QQ"/>
+        <div class="menu_name">QQ</div>
+    </div>
+    <div id="three" class="subMenu text-center" data-src="my.html">
+        <img class="menu_img" data-imgname="my"/>
+        <div class="menu_name">测试3</div>
+    </div>
+</div>
+
+</body>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/plugins/swiper/js/swiper.jquery.min.js"></script>
+    <script src="/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+    <script src="/static/plugins/mui/js/mui.js"></script>
+    <script src="/static/plugins/mui/js/mui.min.js"></script>
+    <script src="/static/plugins/mui/js/mui.picker.min.js"></script>
+    <script src="/static/js/template.js"></script>
+    <script src="/static/js/my_cab/index.js"></script>
+
+
+</html>
